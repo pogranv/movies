@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Kollok</name>
+    </assembly>
+    <members>
+        <member name="M:Kollok.Controllers.ActivityController.GetMovies">
+            <summary>
+            Получает информацию о всех фильмах.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Kollok.Controllers.ShowtimesController.GetShowtimes">
+            <summary>
+            Получает информацию о сеансах.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Kollok.Controllers.TicketsController.BuyTickets(Kollok.Models.Requests.BuyTicketRequest)">
+            <summary>
+            Осуществляет покупку билетов.
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Kollok.Models.Requests.BuyTicketRequest.SessionId">
+            <summary>
+            Id сеанса.
+            </summary>
+        </member>
+        <member name="P:Kollok.Models.Requests.BuyTicketRequest.Count">
+            <summary>
+            Количество покупаемых билетов.
+            </summary>
+        </member>
+        <member name="P:Kollok.Models.Responses.GetMoviesRespose.Movies">
+            <summary>
+            Информация о фильмах.
+            </summary>
+        </member>
+        <member name="P:Kollok.Models.Responses.GetShowtimesResponse.Showtimes">
+            <summary>
+            Информаиця и сеансах
+            </summary>
+        </member>
+    </members>
+</doc>
